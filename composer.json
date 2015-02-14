@@ -1,0 +1,26 @@
+{
+    "name": "vend/vacation",
+    "description": "A REST API library",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "doctrine/annotations": "~1.2.0",
+        "jms/metadata": "~1.5.0",
+        "jms/serializer": "~0.16.0",
+        "symfony/event-dispatcher": "~2.6.0",
+        "symfony/config": "~2.6.0"
+    },
+    "autoload":{
+        "psr-0": {
+            "Vend\\Vacation": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Malcolm Fell",
+            "email": "malcolm@vendhq.com"
+        }
+    ]
+}
