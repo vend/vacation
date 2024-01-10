@@ -5,7 +5,7 @@
         "bin-dir": "bin"
     },
     "require": {
-        "doctrine/annotations": "~1.2.0",
+        "doctrine/annotations": "~1.14.0",
         "jms/metadata": "~1.5.0",
         "jms/serializer": "~0.16.0",
         "symfony/event-dispatcher": "~2.6.0",
